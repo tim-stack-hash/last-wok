@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a00e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e2de2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg6)"/>
+  <g transform="translate(300,140)" fill="white" text-anchor="middle">
+    <text font-family="Arial, sans-serif" font-size="48" font-weight="bold" dy="0">📊</text>
+    <text font-family="Arial, sans-serif" font-size="26" font-weight="bold" dy="55">Security Dashboard</text>
+    <text font-family="Arial, sans-serif" font-size="15" opacity="0.85" dy="82">Панель мониторинга и аналитики</text>
+  </g>
+  <g transform="translate(80,260)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="white" opacity="0.12"/>
+    <text x="60" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.6">Хонадонlar</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">1 142</text>
+    <rect x="140" y="0" width="120" height="60" rx="8" fill="white" opacity="0.12"/>
+    <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.6">Aholi</text>
+    <text x="200" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">4 939</text>
+    <rect x="280" y="0" width="120" height="60" rx="8" fill="white" opacity="0.12"/>
+    <text x="340" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.6">Kamera</text>
+    <text x="340" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">421</text>
+  </g>
+  <text x="50" y="370" font-family="Arial, sans-serif" font-size="13" fill="white" opacity="0.7">React · GitHub Pages</text>
+</svg>

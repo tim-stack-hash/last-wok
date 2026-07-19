@@ -1,0 +1,8 @@
+.skill-bar {
+  height: 12px;
+  border-radius: 6px;
+}
+
+.skill-bar .progress-bar {
+  border-radius: 6px;
+}

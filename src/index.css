@@ -1,0 +1,115 @@
+:root {
+  --bs-primary: #3b82f6;
+  --bs-primary-rgb: 59, 130, 246;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bs-body-bg: #0f172a;
+  --bs-body-color: #f1f5f9;
+  --bs-primary: #60a5fa;
+  --bs-primary-rgb: 96, 165, 250;
+  --bs-secondary-bg: #1e293b;
+  --bs-border-color: #334155;
+}
+
+[data-theme='dark'] body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .navbar-custom {
+  background-color: #0f172a !important;
+}
+
+[data-theme='dark'] .navbar-custom .nav-link,
+[data-theme='dark'] .navbar-custom .navbar-brand {
+  color: #f1f5f9 !important;
+}
+
+[data-theme='dark'] .navbar-custom .nav-link:hover {
+  color: #60a5fa !important;
+}
+
+[data-theme='dark'] .card {
+  background-color: #1e293b;
+}
+
+[data-theme='dark'] .form-control {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .form-control:focus {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 0.25rem rgba(96, 165, 250, 0.25);
+}
+
+[data-theme='dark'] .text-secondary {
+  color: #94a3b8 !important;
+}
+
+[data-theme='dark'] .btn-outline-secondary {
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+[data-theme='dark'] .btn-outline-secondary:hover {
+  background-color: #334155;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+[data-theme='dark'] .progress {
+  background-color: #334155;
+}
+
+[data-theme='dark'] .border-top {
+  border-color: #334155 !important;
+}
+
+[data-theme='dark'] .hero-section {
+  background-color: #0f172a;
+}
+
+[data-theme='dark'] .about-section,
+[data-theme='dark'] .skills-section,
+[data-theme='dark'] .projects-section,
+[data-theme='dark'] .contact-section {
+  background-color: #0f172a;
+}
+
+[data-theme='dark'] .project-detail-card {
+  background-color: #1e293b;
+}
+
+[data-theme='dark'] .display-3,
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h5 {
+  color: #f1f5f9;
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    text-align: left;
+  }
+}
+
+.hero-photo {
+  width: 280px;
+  height: 280px;
+  border: 4px solid var(--bs-primary);
+  object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+  .hero-photo {
+    width: 200px;
+    height: 200px;
+  }
+}

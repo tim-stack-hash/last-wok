@@ -1,0 +1,8 @@
+.navbar-custom {
+  transition: background-color 0.3s;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  color: var(--bs-primary) !important;
+}

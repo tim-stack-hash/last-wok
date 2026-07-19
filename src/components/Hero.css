@@ -1,0 +1,23 @@
+.hero-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-greeting {
+  font-size: 1.2rem;
+  color: var(--bs-primary);
+}
+
+.hero-name {
+  color: inherit;
+}
+
+@media (max-width: 991.98px) {
+  .hero-section {
+    text-align: center;
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
